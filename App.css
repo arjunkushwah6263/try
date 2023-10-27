@@ -1,0 +1,359 @@
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.containeru {
+  max-width: 450px;
+  margin: 2px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.containerb {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.settinicon {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.nav-menu li {
+  margin-top: 30px;    /* Add margin at the top of the li elements */
+  margin-bottom: 30px; /* Add margin at the bottom of the li elements */
+  list-style: none;
+  margin-left: 0%;
+  
+}
+.nav-menu {
+  list-style: none;
+  padding: 0; 
+}
+
+.back {
+  list-style: none;
+  padding: 0; 
+  text-decoration: none;
+}
+
+.nav-menu a {
+  font-size: 16px; /* Adjust the font size as needed */
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit the text color from the parent */
+} 
+.no-underline {
+  margin-top: 40px; 
+  margin-bottom: 40px; 
+  list-style: none;
+  text-decoration: none; 
+}
+.battery-image {
+  width: 25px;
+  height: 20px;
+  
+  margin-left: 90%;
+  margin-top: 0%;
+  
+}
+.my-image {
+  width: 20px;
+  height: 15px;
+  margin-right: 20px;
+  margin-left: 0%;
+  
+}
+.profile-image {
+  width: 25px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 0%;
+  
+}
+.air-image {
+  width: 50px;
+  height: 30%;
+  margin-left: 70%;
+  
+}
+.airplan-image {
+  width: 20px;
+  height: 15px;
+  margin-left: 54%;
+  
+}
+.conn-image{
+  width: 20px;
+  height: 15px;
+  
+  margin-left: 42%;
+  background-color: #007bff;
+  color: #fff;
+  
+}
+.pro-image{
+  width: 20px;
+  height: 15px;
+  
+  margin-left: 40%;
+  background-color: #007bff;
+  color: #fff;
+  
+}
+
+
+.for-image {
+  width: 20px;
+  height: 15px;
+  
+  margin-left: 40%;
+  
+}
+.s-image {
+  width: 20px;
+  height: 15px;
+  
+  margin-left: 45%;
+  
+}
+.air-image {
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+  
+  margin-left: 53%;
+  
+}
+.hot-image {
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+  
+  margin-left: 64%;
+  
+}
+.blu-image {
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+  
+  margin-left: 61%;
+  
+}
+.auto-image {
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+  
+  margin-left: 50%;
+  
+}
+
+.eye-image {
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+  
+  margin-left: 57%;
+  
+}
+.autob-image {
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+  
+  margin-left: 58%;
+  
+}
+.osi-image {
+  width: 40px;
+  height: 15px;
+  font-size: 16px;
+  
+  margin-left: 47%;
+  
+}
+.about-image {
+  width: 20px;
+  height: 15px;
+  
+  margin-left: 57%;
+  
+}
+
+.loca-image {
+  width: 20px;
+  height: 15px;
+  
+  margin-left: 64%;
+  
+}
+
+.info-pair {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+  margin-left: 20px;
+  max-width: 400px; 
+}
+.volume-control {
+  
+  
+  margin-bottom: 30px;
+  
+}
+.volume-control:hover {
+  
+  
+  background-color: #d3d3d3;
+  border-radius: 15px;
+  
+}
+.connh {
+  
+  
+  margin-left: 48px;
+  
+}
+.connb {
+  
+  
+  margin-left: 40px;
+  
+}
+.aboutphone {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+
+.aboutPhoneBox{
+  margin: auto;
+  width: 400px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Adjust space-evenly to decrease the space */
+}
+.column-layout p{
+  text-align: left;
+  width: 400px;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.brightm {
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  
+}
+/* Default styles for all screens */
+body {
+  font-size: 18px;
+}
+
+/* Media query for screens up to 768px wide */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+/* Media query for screens between 768px and 1024px wide */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+  .container {
+    width: 80%;
+  }
+}
+.icon {
+  width: 40px; /* Set the desired width */
+  height: 24px; /* Set the desired height */
+  vertical-align: right; /* Adjust the vertical alignment */
+  /* Add any other styles you want */
+}
+/* styles.css */
+.my-li {
+  list-style: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+  
+  
+  transition: background-color 0.3s, border-radius 0.3s;  /* Optional: Add a smooth transition */
+}
+
+.my-li:hover {
+  background-color: #d3d3d3;
+  border-radius: 15px;
+  /* Add any other styles you want when hovering */
+}
+.my-list {
+  list-style: none;
+  
+  background-color: #f0f0f0;
+  
+  
+  transition: background-color 0.3s, border-radius 0.3s;  /* Optional: Add a smooth transition */
+}
+
+.my-list:hover {
+  background-color: #d3d3d3;
+  border-radius: 15px;
+  /* Add any other styles you want when hovering */
+}
+/* styles.css */
+.full-width-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color:#fff;
+  border: 1px solid #666;
+  border-radius: 3px;
+  padding: 5px;
+  width: 80%; /* Adjust the width as needed */
+}
+
+.fa-magnifying-glass {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.search-input {
+  border: none;
+  background: none;
+  color: #333;
+  width: 100%;
+  outline: none;
+}
